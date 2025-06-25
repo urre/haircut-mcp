@@ -1,9 +1,0 @@
-{
-  "servers": {
-    "haircut-mcp": {
-      "type": "stdio",
-      "command": "/Users/urbansanden/.nvm/versions/node/v20.16.0/bin/node",
-      "args": ["/Users/urbansanden/projects/twobo/labs/haircut-mcp/build/index.js"],
-    }
-  }
-}
