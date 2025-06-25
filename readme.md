@@ -1,6 +1,6 @@
 # Haircut MCP
 
-✂️ Get available haircut times from [Boka Direkt](https://www.bokadirekt.se/) for your salon and hairdresser.
+✂️ Get available haircut times from [Boka Direkt](https://www.bokadirekt.se/) for your salon, service and hairdresser.
 
 _Why?:_
 
