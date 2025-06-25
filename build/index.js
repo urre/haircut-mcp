@@ -106,7 +106,9 @@ server.tool("get-haircut-times", "Get available appointment times from BokaDirek
             });
             detailedMessage += '\n';
         });
-        detailedMessage += `\nTo book an appointment, please choose one of the times listed above.`;
+        // Add booking instructions and link information
+        detailedMessage += `\nTo book an appointment, please choose one of the times listed above and visit the booking page.`;
+        detailedMessage += `\n\nBooking URL: https://www.bokadirekt.se/boka-tjanst/harsmedjan-55901/herr-klipp-2994820`;
         return {
             content: [
                 {
