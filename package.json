@@ -1,0 +1,25 @@
+{
+  "name": "mcp-server-harcut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "watch": "tsc --watch && chmod 755 build/index.js"
+  },
+  "author": "Urban Sanden",
+  "description": "Get a haircut",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.2",
+    "dotenv": "^16.5.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "shx": "^0.4.0",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "build"
+  ]
+}
